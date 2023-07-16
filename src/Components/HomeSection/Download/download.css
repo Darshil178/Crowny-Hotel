@@ -1,0 +1,82 @@
+.download {
+  background-color: #31b675;
+  color: white;
+  height: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+}
+.download h1 {
+  font-size: 40px;
+}
+.download ul {
+  margin: 20px 0;
+}
+.download ul li {
+  margin: 10px 0;
+}
+.download .row2 {
+  width: 50%;
+}
+.download .row img {
+  margin-right: 20px;
+}
+.download .row {
+  position: relative;
+}
+.download .image {
+  position: absolute;
+  left: 20%;
+  right: 0;
+}
+@media screen and (max-width: 768px) {
+
+  .download .flex_space {
+    flex-direction: column;
+    padding: 40px;
+  }
+  .download .row {
+    width: 100%;
+   
+  }
+  .download .row2 {
+    display: none;
+  }
+  .download {
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 600px){
+  .download {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+  .download h1 {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .download h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  .download ul li {
+    font-size: 0.9rem;
+  }
+  .download .container {
+    max-width: 100%;
+  }
+  .download .img {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .download .img img {
+    width: 180px; height: auto;
+    object-fit: contain;
+  }
+  
+  
+  .top {
+    margin-top: 50px;
+  }
+}
